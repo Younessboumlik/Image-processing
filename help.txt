@@ -1,0 +1,40 @@
+1Qui permet de generer une image en noir de 
+1hauteur h et de largeur l . Pour ce faire, la fonction retourne 
+1une matrice contenant h lignes et l colonnes 
+1dont la valeur de chaque pixel est initialise par 0
+2Permet de generer une image en blanch de 
+2hauteur et de largeur l . Pour ce faire, la fonction retourne 
+2une matrice contenant h lignes et l colonnes 
+2dont la valeur de chaque pixel est initialisw par 1
+3Il retourne une image noir et blanc dont le contenu 
+3de chaque pixel (i,j) est donne par (i+j)%2.
+4Il construit le negatif de l’image representee par une 
+4matrice Img. Pour cela, il suffit d'inverser les 
+4valeurs de la matrice t (0 devient 1 et 1 devient 0).
+5Retourne la luminance d'une image definie comme 
+5la moyenne de tous les pixels de l’image.
+6Retourne la contraste d'une image .
+7 renvoie la valeur maximale d'un pixel d'une image .
+8Renvoie l’image inverse d'une image choisie .
+9renvoie la transformee de l’image img par la 
+9symétrie d’axe vertical passant par le milieu de l’image
+%Prend en arguments deux images img1 et 
+%img2 de meme largeur et profondeur, et qui renvoie 
+%la nouvelle image obtenue en posant img1 sur 
+%img2.
+#Prend en arguments deux images img1 et 
+#img2 de meme hauteur et profondeur, et qui renvoie 
+#la nouvelle image obtenue en posant img2 à 
+#droite de img1.
+*Permettant d'initialiser et de 
+*renvoyer le tableau imageRGB a trois dimensions , 
+*l'initialisation se fera d'une manière aléatoire.
+((Retourne une image symetrique a l'image
+((img par rapport a l'axe horizontal
+0renvoie une image en niveaux de 
+0gris, sous forme de tableau a deux dimensions de taille n x m 
+0contenant des valeurs entieres comprises 
+0entre 0 et 255.
+!Ce programme consiste a faire le traitement d'image avec tous 
+!ses finctionalite , si vous vouler savoir plus d'informations 
+!sur les fonctios utiliser clique sur ? dans le menu . 
